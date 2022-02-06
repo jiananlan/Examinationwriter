@@ -1,0 +1,150 @@
+object Form5: TForm5
+  Left = 193
+  Top = 130
+  BorderStyle = bsDialog
+  Caption = #36873#25321#39064#39118#26684
+  ClientHeight = 249
+  ClientWidth = 377
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 8
+    Width = 358
+    Height = 13
+    Caption = #35831#22312#19979#20391#36873#25321#24744#25152#38656#30340#39118#26684#65292#20849'2'#27454#23448#26041#39118#26684#65292#24744#20063#21487#20197#33258#23450#20041
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = #23435#20307
+    Font.Style = []
+    ParentFont = False
+  end
+  object PageControl1: TPageControl
+    Left = 8
+    Top = 40
+    Width = 361
+    Height = 153
+    ActivePage = TabSheet1
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = #23435#20307
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = #23448#26041#39118#26684'-Basic'
+      object Label3: TLabel
+        Left = 48
+        Top = 48
+        Width = 246
+        Height = 27
+        Caption = '---'#12304#36873#39033#32534#30721#12305'---'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -27
+        Font.Name = #23435#20307
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = #23448#26041#39118#26684'-High'
+      ImageIndex = 1
+      object Label4: TLabel
+        Left = 48
+        Top = 48
+        Width = 246
+        Height = 27
+        Caption = '---'#12304#36873#39033#32534#30721#12305'---'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -27
+        Font.Name = #23435#20307
+        Font.Style = []
+        ParentFont = False
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = #33258#23450#20041#39118#26684
+      ImageIndex = 2
+      object Label5: TLabel
+        Left = 88
+        Top = 48
+        Width = 162
+        Height = 27
+        Caption = #12304#36873#39033#32534#30721#12305
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -27
+        Font.Name = #23435#20307
+        Font.Style = []
+        ParentFont = False
+      end
+      object Edit1: TEdit
+        Left = 8
+        Top = 48
+        Width = 81
+        Height = 24
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = #23435#20307
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 0
+      end
+      object Edit2: TEdit
+        Left = 256
+        Top = 48
+        Width = 81
+        Height = 24
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = #23435#20307
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 1
+      end
+    end
+  end
+  object Button1: TButton
+    Left = 168
+    Top = 208
+    Width = 75
+    Height = 25
+    Caption = #23436#25104
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 272
+    Top = 208
+    Width = 75
+    Height = 25
+    Caption = #21462#28040
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object ComboBox1: TComboBox
+    Left = 8
+    Top = 208
+    Width = 153
+    Height = 22
+    Style = csOwnerDrawFixed
+    ItemHeight = 16
+    TabOrder = 3
+    Items.Strings = (
+      #23448#26041#39118#26684'-Basic'
+      #23448#26041#39118#26684'-High'
+      #33258#23450#20041#39118#26684)
+  end
+end
